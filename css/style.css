@@ -90,7 +90,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 118vh;
+    height: 122vh;
 }
 
 /* Styling the entire head head section by converting it to flex container*/
@@ -124,17 +124,18 @@ header {
   .whoami-btn {
     color: var(--white-color);
     padding: 8px;
-    border: 2px solid var(--white-color);
+    border: 2px solid #fdcc52;
     border-radius: 15px;
     font-size: 12px;
-    width: 150px;
+    width: 90px;
   }
 
   .whoami-btn:hover {
-    border: 2px solid #fdcc52;
+    border: 2px solid var(--white-color);
+    color:#fdcc52;
     font-size: 15px;
     border-radius: 10px;
-    width: 180px;
+    width: 100px;
   }
   
   /* Position the Phone Image in the top banner*/

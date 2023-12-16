@@ -100,7 +100,7 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 65px;
+    padding-top: 70px;
   }
 
   /* Styling the WHO AM I header text*/
@@ -138,10 +138,64 @@ header {
     width: 100px;
   }
   
-  /* Position the Phone Image in the top banner*/
+  /* Position the Who-Am-I Image in the top banner */
   .whoami-image {
     padding-top: 65px;
     text-align: center;
     margin-top: 43px;
   }
+
+  /* Styling the Wgat-I-Do section on the Page */
+  .whatido-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Styling all H2 elements inside section tags to a font-size of 50px */
+  section h2 {
+    font-size: 50px;
+  }
+
+  /* Styling the sectionHeading class on the Page */
+  .sectionHeading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  /* Styling the card container elements on the page */
+  .cardContainer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #cdbdbd;
+  }
+  
+  /* Styling the card elements on the page */
+  .card {
+    margin: 50px auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styling the images element inside the card elements */
+  .card img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  
+  /* Styling the card-title inside the H5 elements */
+  h5.card-title {
+    font-weight: bolder;
+    font-size: 24px;
+  }
+  
+  /* Styling the card-text inside the P elements */
+  p.card-text {
+    text-align: justify;
+  }
+  
   

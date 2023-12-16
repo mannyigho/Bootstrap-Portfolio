@@ -1,0 +1,146 @@
+:root {
+    --purple-bg-color: rgb(86, 86, 199);
+    --hero-text-bg-color: rgba(124, 239, 239, 0.87);
+    --white-color: #ffffff;
+    --blueish-color: rgb(95, 110, 141);
+    --border-right-color: rgb(73, 70, 70);
+}
+
+/* Setting the font-family for the entire Page */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Specifying color and transitions for the anchor tags */
+a {
+    color: #fdcc52;
+    transition: all .35s;
+}
+
+/* Specifying colors for the focus and hover action on anchor tags*/
+a:hover, a:focus {
+    color: #ffffff;
+}
+
+/* Setting style rules for header elements*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+/* Setting CSS rules for paragraph tags */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Changing the font-color and margin of the Bootstrap Brand / Logo*/
+.navbar-light .navbar-nav .nav-link, .navbar-light {
+    margin-left: 50px;
+}
+  
+/* Changing the font-color and font-size of the Bootstrap link items */
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Styling the Navbar Brand / Logo */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    border-top: 2px solid #fdcc52;
+    border-bottom: 2px solid #fdcc52;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: var(--white-color);
+}
+
+/* Styling the Navbar Brand / Logo */
+.navbar-brand:hover {
+    font-weight: normal;
+    color: #fdcc52;
+    border-top: 2px solid var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+}
+
+/* Styling the right-hand-side navigation links */
+.nav-link {
+    border-bottom: 1px solid #ffffff;
+    color: #fdcc52;
+}
+
+/* Animating the right-hand-side navigation links */
+.nav-link:hover {
+    border-bottom: 2px solid #fdcc52;
+    color: #ffffff;
+}
+  
+
+/* Setting the background image for the header element and applying several CSS attributes*/
+header {
+    background-image: url('../images/bg-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 118vh;
+}
+
+/* Styling the entire head head section by converting it to flex container*/
+.whoami-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 65px;
+  }
+
+  /* Styling the WHO AM I header text*/
+  .whoami-header-text {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Styling the WHO AM I text*/
+  .whoami-text {
+    width: 400px;
+    color: #e7dede;
+    font-size: 18px;
+    margin: 30px auto;
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  /* Styling the CTA in the banner under the Download the Travel California App */
+  .whoami-btn {
+    color: var(--white-color);
+    padding: 8px;
+    border: 2px solid var(--white-color);
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+  }
+
+  .whoami-btn:hover {
+    border: 2px solid #fdcc52;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 180px;
+  }
+  
+  /* Position the Phone Image in the top banner*/
+  .whoami-image {
+    padding-top: 65px;
+    text-align: center;
+    margin-top: 43px;
+  }
+  

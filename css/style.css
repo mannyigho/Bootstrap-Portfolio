@@ -56,31 +56,31 @@ p {
 .navbar-brand {
     font-weight: bold;
     font-size: 24px;
-    border-top: 2px solid #fdcc52;
-    border-bottom: 2px solid #fdcc52;
+    border-top: 2px solid var(--white-color);
+    border-bottom: 2px solid var(--white-color);
     padding-left: 15px;
     padding-right: 15px;
-    color: var(--white-color);
+    color: #fdcc52;
 }
 
 /* Styling the Navbar Brand / Logo */
 .navbar-brand:hover {
     font-weight: normal;
-    color: #fdcc52;
-    border-top: 2px solid var(--white-color);
-    border-bottom: 2px solid var(--white-color);
+    color: var(--white-color);
+    border-top: 2px solid #fdcc52;
+    border-bottom: 2px solid #fdcc52;
 }
 
 /* Styling the right-hand-side navigation links */
 .nav-link {
-    border-bottom: 1px solid #ffffff;
-    color: #fdcc52;
+    border-bottom: 1px solid #fdcc52;
+    color: var(--white-color);
 }
 
 /* Animating the right-hand-side navigation links */
 .nav-link:hover {
-    border-bottom: 2px solid #fdcc52;
-    color: #ffffff;
+    border-bottom: 2px solid var(--white-color);
+    color: #fdcc52;
 }
   
 

@@ -238,6 +238,25 @@ header {
     position: relative;
   }
 
+
+  .main-box-3 {
+    width: 100%;
+    height: 290px;
+    background-image: url('../images/flexbox-designs-project-list.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  .main-box-4 {
+    width: 100%;
+    height: 290px;
+    background-image: url('../images/horiseon-designs-project-list.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
   .project-list-item {
     border: 2px solid var(--hero-text-bg-color);
     margin-bottom: 20px;

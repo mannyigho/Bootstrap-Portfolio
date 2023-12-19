@@ -308,6 +308,10 @@ header {
     padding: 20px;
   }
 
+  footer a {
+    text-decoration: none;
+  }
+
   .footer-text {
     text-align: center;
     color: #e3e1dbad;

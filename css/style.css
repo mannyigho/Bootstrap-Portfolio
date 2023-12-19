@@ -202,7 +202,6 @@ header {
     padding-top: 20px;
     padding-bottom: 50px;
     background-color: #7f7777;
-    padding-bottom: 50px;
   }
 
   #carouselExampleCaptions {
@@ -257,9 +256,15 @@ header {
     position: relative;
   }
 
+  .project-list {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #706e6e;
+  }
+
   .project-list-item {
     border: 2px solid var(--hero-text-bg-color);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .project-list-text {

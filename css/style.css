@@ -163,6 +163,7 @@ header {
     margin-top: 50px;
     margin-bottom: 50px;
     font-weight: bold;
+    color: #ffffff;
   }
   
   /* Styling the card container elements on the page */
@@ -281,5 +282,28 @@ header {
   .project-list-text > h3 {
     font-size: 18px;
   }
+
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #000000;
+    text-align: center;
+  }
+
+  .contact a {
+    text-decoration: none;
+  }
+
+  footer {
+    background-color: #252116ad;
+    padding: 20px;
+  }
+
+  .footer-text {
+    text-align: center;
+    color: #e3e1dbad;
+  }
+
+
   
   

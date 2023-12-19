@@ -180,6 +180,10 @@ header {
     align-items: center;
     justify-content: center;
   }
+
+  .card:hover {
+    border: 2px solid #fdcc52;
+  }
   
   /* Styling the images element inside the card elements */
   .card img {

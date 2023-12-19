@@ -147,8 +147,9 @@ header {
 
   /* Styling the Wgat-I-Do section on the Page */
   .whatido-section {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
+    background-color: #cdbdbd;
   }
   
   /* Styling all H2 elements inside section tags to a font-size of 50px */
@@ -160,20 +161,19 @@ header {
   .sectionHeading {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: bold;
   }
   
   /* Styling the card container elements on the page */
   .cardContainer {
-    margin-top: 20px;
     text-align: center;
-    background-color: #cdbdbd;
   }
   
   /* Styling the card elements on the page */
   .card {
     margin: 50px auto;
+    margin: 15px;
     border: none;
     display: flex;
     align-items: center;
@@ -199,7 +199,14 @@ header {
   }
 
   .project-slides {
-    
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #7f7777;
+    padding-bottom: 50px;
+  }
+
+  #carouselExampleCaptions {
+    margin: 10px;
   }
   
   

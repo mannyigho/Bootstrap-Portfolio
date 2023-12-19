@@ -197,6 +197,7 @@ header {
   h5.card-title {
     font-weight: bolder;
     font-size: 24px;
+    font-family: "Playfair Display";
   }
   
   /* Styling the card-text inside the P elements */

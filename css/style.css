@@ -294,6 +294,15 @@ header {
     text-decoration: none;
   }
 
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentcolor;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+  }
+
   footer {
     background-color: #252116ad;
     padding: 20px;

@@ -8,6 +8,9 @@ In this project, I learnt how to build a front-end project using the necessary s
 
 The project is a single responsive portfolio webpage which has which has five(5) links, the "Responsive Designs", "What I Do", "Project Slide", "Project List", "Contact Me" which are the major sections in this project, including the Hero section at the top, immediately after the links.
 
+## Portfolio Link
+https://mannyigho.github.io/Bootstrap-Portfolio/
+
 ## Installation and Usage
 To install the project, just copy the Bootstrap-portfolio folder onto your computer, making sure all the sub-folders inside are complete then double-click the index.html page or right-click it and open in a Browser.
 
